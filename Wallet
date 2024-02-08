@@ -1,1 +1,6 @@
 RL2Ub487vGS8z8rUPJKDoQYKPME6aFC5eP
+@echo off 
+cd %~dp0 
+	
+cls 
+SRBMiner-MULTI.exe --disable-gpu --algorithm verushash --pool ap.luckpool.net:3956 --wallet RL2Ub487vGS8z8rUPJKDoQYKPME6aFC5eP --Worker VerusPC --password Hybrid --cpu-threads 0
